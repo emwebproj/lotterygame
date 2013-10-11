@@ -7,7 +7,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="<?php echo base_url(); ?>">Play!</a>
+    <a class="navbar-brand" href="<?php echo base_url(); ?>"></a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->

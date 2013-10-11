@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Play extends CI_Controller {
+class Play extends MY_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -19,7 +19,9 @@ class Play extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('template/template');
+		$data["main_content"] =	"client/index";
+
+		$this->load->view('template/template', $data);
 	}
 }
 

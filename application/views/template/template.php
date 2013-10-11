@@ -5,6 +5,7 @@
     
     <title></title>
     
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/bootstrap.min.css">
@@ -29,8 +30,7 @@
       <!-- Main Content -->
       <div class="row">
         <div class="col-md-12">
-           <?php //isset($main_content) ? $this->load->view('../' . $main_content) : ""; ?>
-           <?php echo "Hi People!"; ?>
+           <?php isset($main_content) ? $this->load->view($main_content) : ""; ?>
         </div>
       </div>
 
@@ -41,6 +41,7 @@
 
     <script src="<?php echo base_url(); ?>public/js/jquery-1.10.2.min.js"></script>
     <script src="<?php echo base_url(); ?>public/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>public/js/main.js"></script>
 
   </body>
 </html>

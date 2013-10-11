@@ -1,3 +1,12 @@
 body { padding-top: 70px; }
 
-.show-grid { margin-bottom: 10px; }
+.show-grid { margin: 10px 6px; }
+
+.play-well { 
+	margin: 0 auto 10px;
+	max-width:800px; 
+}
+
+.btn-play {
+	font-size: 27px;
+}
