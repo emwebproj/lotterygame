@@ -1,21 +1,47 @@
 
 jQuery('document').ready(function($){
 
-	var cnt = 0;
+	var cnt		 = 0;
+	var betArray = [];
+	var tglClass = 'btn-success';
 
 	$('.btn-play').click(function(){
 
-		if($(this).hasClass('btn-primary') && cnt)
+		var dis 	= $( this );
+		var disId 	= dis.attr( 'id' );
+
+		if(dis.hasClass(tglClass) && cnt) {
 			cnt--;
-		else {
+			betArray.splice( $.inArray(disId, betArray), 1 );
+
+		} else {
 			if(cnt == 6) {
-				alert('anim na');
+				$('.alert').show();
 				return;
 			}
+
+			betArray.push(disId);
 			cnt++;
 		}		
 
-		$( this ).toggleClass('btn-primary');
+		dis.toggleClass(tglClass);
+	});
+
+
+
+	$('.close').click(function(){
+		$('.alert').hide();
+	});
+
+
+
+	$('#submit').click(function(){
+		if(cnt != 6) {
+			alert('Please complete your bet!');
+			return false;
+		}
+
+		console.log(betArray); return false;
 	});
 
 });

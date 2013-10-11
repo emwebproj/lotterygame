@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Play extends CI_Controller {
+class Admin extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -8,14 +8,12 @@ class Play extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data["main_content"] =	"client/index";
-
-		$this->load->view('template/template', $data);
+		die('ee');
 	}
 
 	public function save()
 	{
-		print_r($this->input->post(NULL, TRUE)); die('sdfsd');
+		die('sdfsd');
 	}
 }
 

@@ -2,6 +2,10 @@ body { padding-top: 70px; }
 
 .show-grid { margin: 10px 6px; }
 
+@media screen and ( max-width: 700px ) {
+	.show-grid { margin: 0; }
+}
+
 .play-well { 
 	margin: 0 auto 10px;
 	max-width:800px; 
@@ -9,4 +13,5 @@ body { padding-top: 70px; }
 
 .btn-play {
 	font-size: 27px;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
