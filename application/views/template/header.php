@@ -7,31 +7,13 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="<?php echo base_url(); ?>"></a>
+    <a class="navbar-brand" href="<?php echo base_url(); ?>">Online <strong>LOTTERY</strong></a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
-      <li><a href="<?php echo base_url(); ?>"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-check"></span> Election</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> Maintenance <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Members</a></li>
-          <li><a href="#">Member Groups</a></li>
-          <li><a href="#">Positions</a></li>
-          <li><a href="#">Candidates</a></li>
-        </ul>
-      </li>
-      <li><a href="#"><span class="glyphicon glyphicon-file"></span> Reports</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Accounts <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">User Accounts</a></li>
-          <li><a href="#">User Roles</a></li>
-        </ul>
-      </li>
+      <li><a href="<?php echo base_url(); ?>"><span class="glyphicon glyphicon-check"></span> Play</a></li>
       <li><a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a></li>
     </ul>
 

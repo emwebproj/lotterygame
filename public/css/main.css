@@ -1,4 +1,7 @@
-body { padding-top: 70px; }
+body { 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-top: 70px; 
+}
 
 .show-grid { margin: 10px 6px; }
 
